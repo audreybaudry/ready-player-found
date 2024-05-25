@@ -1,0 +1,28 @@
+.image {
+  width: 65%;
+  border-radius: 2em;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: 4%;
+}
+.image_back_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height: 600px;
+  border-radius: 2em;
+}
+.image2 {
+  width: 100%;
+  padding-top: 4%;
+}
+@media screen and (max-width: 990px) {
+  .image {
+    width: 98%;
+    margin-top: 9%;
+    padding: 5%;
+  }
+  .image_back_container {
+    margin-top: 20%;
+  }
+}

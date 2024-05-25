@@ -1,0 +1,140 @@
+.search_grid_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.arrow_right {
+  transform: rotate(90deg);
+  width: 5%;
+}
+.arrow_left {
+  transform: rotate(90deg);
+  width: 5%;
+}
+.search_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 5%;
+  justify-content: center;
+}
+
+.searchnavbar {
+  display: flex;
+  width: 160px;
+  border-radius: 2em;
+  border: none;
+  background-color: #ffabb3;
+  padding: 1%;
+  margin-left: 192%;
+}
+.search_image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  cursor: pointer;
+}
+.search_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 3%;
+  align-items: center;
+}
+.search_name {
+  color: #e33335;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: large;
+}
+.search_card {
+  background-color: #ffabb3;
+  width: 600px;
+  border-radius: 2em;
+  padding-bottom: 7%;
+
+  margin-top: 10%;
+}
+.search_date {
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  color: #282929;
+}
+.platform {
+  font-family: Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 100;
+  color: #282929;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.platform_name {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: row;
+}
+.rating {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.filter_navbar {
+  display: flex;
+  justify-content: center;
+}
+.search_navbar {
+  margin-bottom: 1em;
+  border-radius: 5em;
+}
+.arrow_right {
+  transform: rotate(90deg);
+}
+.pagination_search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 1.5em;
+}
+.search_date {
+  padding-top: 3%;
+}
+
+@media screen and (max-width: 990px) {
+  .search_grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .search_image {
+    width: 350px;
+    height: 200px;
+  }
+  .search_card {
+    margin-bottom: 2em;
+
+    width: 350px;
+  }
+  .search_date {
+    padding-top: 3%;
+  }
+  .search_name {
+    font-size: medium;
+    width: 300px;
+  }
+  .search_name_result {
+    margin-top: 22%;
+  }
+  .searchnavbar {
+    position: absolute;
+    border: none;
+    right: -19%;
+    top: 256%;
+  }
+}

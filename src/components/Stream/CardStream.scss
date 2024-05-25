@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//      CARD DECORATION
+.cards_stream_image {
+  width: 100%;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+  cursor: pointer;
+}
+.card_stream_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffabb3;
+  border-radius: 1.5em;
+  height: 100%;
+  padding-bottom: 2%;
+}
+.card_stream {
+  width: 25%;
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.card_stream_info {
+  text-align: center;
+  margin-right: 7%;
+  margin-left: 7%;
+  color: #eff0f6;
+  margin-bottom: 2%;
+}
+h4 {
+  font-size: 1em;
+  color: #eff0f6;
+  margin: 2%;
+  font-family: "Oswald", sans-serif;
+}
+
+//    CARDS DISPLAY
+.streamer_list {
+  display: flex;
+}
+
+.video_streamer {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  width: 100%;
+}
+.image_mobile {
+  display: none;
+}
+.button_arrow {
+  display: none;
+}
+//     Arrows
+
+//    RESPONSIVE : MOBILE VERSION
+
+@media screen and (max-width: 990px) {
+  //   DISPOSITION DES CARDS
+  .streamer_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_stream {
+    width: 90%;
+  }
+  .card_stream_container {
+    margin-bottom: 0.2em;
+    padding-bottom: 1em;
+  }
+
+  //    BUTTON
+  .button_up_down {
+    display: flex;
+    justify-content: center;
+    background-color: #eff0f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .arrow_logo {
+    width: 9%;
+  }
+
+  //    VIDEO HIDDEN
+  .image_video {
+    display: none;
+  }
+  .image_mobile {
+    display: block;
+  }
+  .image_only_mobile {
+    width: 100%;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+  }
+  .button_arrow {
+    display: flex;
+    justify-content: center;
+    background-color: #eff0f6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+  }
+}

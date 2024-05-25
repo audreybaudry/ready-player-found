@@ -1,0 +1,101 @@
+.footer_all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffabb3;
+  width: 100%;
+}
+.mention_legal {
+  display: flex;
+  flex-direction: row;
+}
+.all_store {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+#first_store {
+  margin-left: 2em;
+}
+#second_store {
+  margin-left: 0.5em;
+  margin-right: 2em;
+}
+.store_logo {
+  width: 20px;
+}
+.imglogo_footer {
+  width: 100px;
+}
+.logo_footer {
+  text-align: center;
+}
+.creator_footer {
+  margin-left: 2em;
+  text-align: left;
+}
+.all_media img {
+  margin-bottom: 0.5em;
+}
+.creator_footer li {
+  list-style-type: none;
+  font-size: 0.7em;
+  color: white;
+  margin-right: 2em;
+}
+.creator_footer li:hover {
+  color: red;
+}
+
+.mention_rawg {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 0.7em;
+  color: white;
+}
+
+.media_logo {
+  display: flex;
+  flex-direction: column;
+  width: 10px;
+  margin-left: 2em;
+}
+
+@media screen and (min-width: 990px) {
+  .store_logo {
+    width: 40px;
+  }
+
+  #second_store {
+    margin-left: 2em;
+    margin-right: 5em;
+  }
+  .creator_footer {
+    margin-left: 5em;
+  }
+  .creator_footer li {
+    font-size: 1.5em;
+    font-family: "Lobster", sans-serif;
+    color: #e33335;
+  }
+  .imglogo_footer {
+    width: 200px;
+  }
+
+  .mention_rawg {
+    font-size: 1em;
+  }
+  .media_logo {
+    width: 20px;
+  }
+  .footer_all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffabb3;
+    width: 113%;
+  }
+}
