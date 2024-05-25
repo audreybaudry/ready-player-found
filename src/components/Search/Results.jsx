@@ -99,19 +99,11 @@ function Results() {
       </div>
       <div className="pagination_search">
         <button type="button" onClick={PrevioushandleClick}>
-          <img
-            src="../public/button/arrow-down.png"
-            alt="logo"
-            className="arrow_left"
-          />{" "}
+          <img src="/button/arrow-down.png" alt="logo" className="arrow_left" />{" "}
         </button>
         <p>{page}</p>
         <button type="button" onClick={NexthandleClick}>
-          <img
-            src="../public/button/arrow-up.png"
-            alt="logo"
-            className="arrow_right"
-          />{" "}
+          <img src="/button/arrow-up.png" alt="logo" className="arrow_right" />{" "}
         </button>
       </div>
     </div>

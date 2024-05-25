@@ -15,16 +15,16 @@ function Categories() {
       setShowAllCategs(window.innerWidth > 650);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     handleResize();
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   const getCategories = () => {
-    Api.getCategories().then((resp) => { 
+    Api.getCategories().then((resp) => {
       setCategories(resp.data.results);
     });
   };
@@ -68,14 +68,14 @@ function Categories() {
                 <h4 className="categories_name">{item.name}</h4>
               </div>
             ))}
-          
+
             <button
               className="button_up_down"
               type="button"
               onClick={handleShowAllCategs}
             >
               <img
-                src="../public/button/arrow-down.png"
+                src="/button/arrow-down.png"
                 alt="Logo"
                 className="arrow_logo"
               />
@@ -108,11 +108,7 @@ function Categories() {
             type="button"
             onClick={handleHideAllCategs}
           >
-            <img
-              src="../public/button/arrow-up.png"
-              alt="Logo"
-              className="arrow_logo"
-            />
+            <img src="/button/arrow-up.png" alt="Logo" className="arrow_logo" />
           </button>
         )}
       </div>

@@ -82,7 +82,7 @@ function CategoryCard() {
         <div className="pagination_category">
           <button type="button" onClick={PrevioushandleClick}>
             <img
-              src="../public/button/arrow-down.png"
+              src="/button/arrow-down.png"
               alt="logo"
               className="arrow_left"
             />{" "}
@@ -90,7 +90,7 @@ function CategoryCard() {
           <p>{page}</p>
           <button type="button" onClick={NexthandleClick}>
             <img
-              src="../public/button/arrow-up.png"
+              src="/button/arrow-up.png"
               alt="logo"
               className="arrow_right"
             />{" "}
