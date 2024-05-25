@@ -6,34 +6,34 @@ function CardStreamList() {
   const streamerList = [
     {
       name: "SQUEEZIE",
-      image: "/public/twitch/squeezie.jpeg",
+      image: "/twitch/squeezie.jpeg",
       description:
         "Squeezie, numéro un sur Youtube, captive son public avec son humour vif et ses sessions de jeu passionnantes sur Twitch, attirant des millions de spectateurs à chaque stream.",
-      video: "/public/twitch/squeezie.mp4",
+      video: "/twitch/squeezie.mp4",
       class: "card1",
     },
     {
       name: "MAGHLA",
-      image: "/public/twitch/maghla.jpeg",
+      image: "/twitch/maghla.jpeg",
       description:
         "Maghla, créatrice talentueuse, attire un large public grâce à son gameplay expert, rassemblant une communauté dévouée notamment lors de ses streams sur les jeux d'horreur",
-      video: "/public/twitch/maghla.mp4",
+      video: "/twitch/maghla.mp4",
       class: "card2",
     },
     {
       name: "DOMINGO",
-      image: "/public/twitch/domingo.jpeg",
+      image: "/twitch/domingo.jpeg",
       description:
         "Domingo, streamer très populaire sur Twitch grâce à son émission Popcorn basée sur des interviews et des jeux avec des célébrités actuelles, rassemble une communauté passionnée.",
-      video: "/public/twitch/domingo.mp4",
+      video: "/twitch/domingo.mp4",
       class: "card3",
     },
     {
       name: "MISTER MV",
-      image: "/public/twitch/mistermv.jpeg",
+      image: "/twitch/mistermv.jpeg",
       description:
         "Mister MV, un streamer renommé sur Twitch, séduit son public avec son expertise dans les jeux vidéo rétro et son style de narration captivant, attirant une base de fans fidèles à chaque stream et vidéo Youtube.",
-      video: "/public/twitch/mistermv.mp4",
+      video: "/twitch/mistermv.mp4",
       class: "card4",
     },
   ];
@@ -76,7 +76,7 @@ function CardStreamList() {
             <div className="button_up_down">
               <button type="button" onClick={() => setShowAllCards(true)}>
                 <img
-                  src="../public/button/arrow-down.png"
+                  src="../button/arrow-down.png"
                   alt="logo"
                   className="arrow_logo"
                 />
@@ -91,7 +91,7 @@ function CardStreamList() {
                 onClick={() => setShowAllCards(false)}
               >
                 <img
-                  src="../public/button/arrow-up.png"
+                  src="../button/arrow-up.png"
                   alt="logo"
                   className="arrow_logo"
                 />{" "}
