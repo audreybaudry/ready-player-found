@@ -15,7 +15,7 @@ function Footer() {
               <img
                 className="store_logo"
                 id="rawg"
-                src="/public/footer/Rawg_logo.png"
+                src="/footer/Rawg_logo.png"
                 alt=""
               />
             </a>
@@ -29,7 +29,7 @@ function Footer() {
               <img
                 className="store_logo"
                 id="steam"
-                src="/public/footer/Steam_icon_logo.png"
+                src="/footer/Steam_icon_logo.png"
                 alt=""
               />
             </a>
@@ -43,7 +43,7 @@ function Footer() {
               <img
                 className="store_logo"
                 id="epic_games"
-                src="/public/footer/Epic_Games_logo.png"
+                src="/footer/Epic_Games_logo.png"
                 alt=""
               />
             </a>
@@ -58,7 +58,7 @@ function Footer() {
               <img
                 className="store_logo"
                 id="nintendo_logo"
-                src="/public/footer/nintendo_eshop_logo.png"
+                src="/footer/nintendo_eshop_logo.png"
                 alt=""
               />
             </a>
@@ -71,7 +71,7 @@ function Footer() {
               <img
                 className="store_logo"
                 id="xbox_logo"
-                src="/public/footer/Xbox_one_logo.png"
+                src="/footer/Xbox_one_logo.png"
                 alt=""
               />
             </a>
@@ -84,7 +84,7 @@ function Footer() {
               <img
                 className="store_logo"
                 id="playstation_logo"
-                src="/public/footer/PlayStation_Store.png"
+                src="/footer/PlayStation_Store.png"
                 alt=""
               />
             </a>
@@ -93,17 +93,16 @@ function Footer() {
         <div className="logo_footer">
           <img
             className="imglogo_footer"
-            src="/public/logo/logo-final.png"
+            src="/logo/logo-final.png"
             alt="logo_footer"
           />
           <p className="mention_rawg">2024 © RAWG, Behind The Games</p>
         </div>
-        
+
         <div className="creator_footer">
           <ul>
             <li>Arnauld Montandon, Audrey Baudry</li>
             <li>Elias Ben Brahim, Morgan Pouilly</li>
-            
           </ul>
         </div>
       </div>

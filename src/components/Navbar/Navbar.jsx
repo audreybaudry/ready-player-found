@@ -31,26 +31,18 @@ function Navbar() {
     <div className="navbar_top">
       <div className="navbar_mobile">
         <Link to="./" type="button">
-          <img
-            className="home_logo_mobile"
-            src="/public/button/home.png"
-            alt="home"
-          />
+          <img className="home_logo_mobile" src="/button/home.png" alt="home" />
         </Link>
 
         <Link to="./" type="button">
-          <img
-            className="logo_burgermenu"
-            src="/public/logo/logo-final.png"
-            alt=""
-          />
+          <img className="logo_burgermenu" src="/logo/logo-final.png" alt="" />
         </Link>
 
         <div className="search_menuburger">
           <button type="button" onClick={toggleSearch}>
             <img
               className="search_logo"
-              src="/public/button/rechercher.png"
+              src="/button/rechercher.png"
               alt="rechercher"
             />
             <div className="mobile_search_bar">
@@ -65,7 +57,7 @@ function Navbar() {
           <div className="imglogo_navbar">
             <img
               className="image_navbar_logo"
-              src="../public/logo/logo-final.png"
+              src="../logo/logo-final.png"
               alt="logo"
             />
           </div>
@@ -77,7 +69,7 @@ function Navbar() {
                 <Link to="./" type="button">
                   <img
                     className="home_logo"
-                    src="/public/button/home.png"
+                    src="/button/home.png"
                     alt="home"
                   />
                 </Link>
@@ -110,7 +102,7 @@ function Navbar() {
                 <button type="button" onClick={toggleSearch}>
                   <img
                     className="search_logo"
-                    src="/public/button/rechercher.png"
+                    src="/button/rechercher.png"
                     alt="rechercher"
                   />
                 </button>
